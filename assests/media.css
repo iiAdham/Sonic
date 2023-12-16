@@ -1,0 +1,47 @@
+@media (max-width:1050px) {
+    header nav .container .row ul li a{
+        font-size: 14px;
+        margin: 0 10px;
+    }
+}
+@media (max-width: 920px){
+    header nav .container .row .btns .sign,
+    header nav .container .row ul{
+        display: none;
+    }
+    header nav .container .row .btns a .menu{
+        display: block;
+    }
+    main .sec1 .container{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    main .sec1 .container .hero-text{
+        width: 100%;
+    }
+    main .sec1 .container .hero-img{
+        width: 40%;
+        
+    }
+}
+@media (max-width: 593px) {
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 527px) {
+    main .sec1 .container .hero-text h1{
+        font-size: 38px;
+    }
+}
+@media (max-width: 331px) {
+    .container{
+        width: 95%;
+    }
+}
+@media (max-width: 250px) {
+    *{
+        display: none;
+    }
+}

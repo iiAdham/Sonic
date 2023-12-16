@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+}
+header nav .container .row .logo h3 span{
+    color: #2DCACF;
+}
+header nav .container .row ul li a{
+    color: black;
+}
+header nav .container .row ul li a:hover{
+    color: #2DCACF;
+}
+header nav .container .row ul li a:after{
+    background-color: #2DCACF;
+}
+header nav .container .row .logo h3 {
+    color: black;
+}
+header nav .container .row .btns .sign a {
+    color: black;
+}
+header nav .container .row .btns .sign a:nth-child(2) {
+    background-color: #2DCACF;
+}
+main .sec1 .container .hero-text h1 {
+    color: black;
+}
+main .sec1 .container .hero-text span {
+    color: #2DCACF;
+}
+main .sec1 .container .hero-text p {
+    color: black;
+}
+main .sec1 .container .hero-text button {
+    color: black;
+    background-color: #2DCACF;
+}
+.mode-btn i {
+    background: linear-gradient(145deg, #a4a8ac, #9b9ea3);
+    color: white;
+}
+.mode-btn i:hover{
+    background: linear-gradient(145deg, #8c8f93, #878a8e);
+    color: rgb(235, 232, 232);
+}

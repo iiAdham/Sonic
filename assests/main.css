@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.mode-btn{
+    position: absolute;
+    z-index: 99999999;
+    bottom:2%;
+    right: 2%;
+}
+.mode-btn i{
+    color: white;
+    font-size: 40px;
+    background: linear-gradient(145deg, #23282c, #1e2125);
+    border-radius: 100%;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.mode-btn i:hover{
+    color: rgba(255, 255, 255, 0.82);
+    background: linear-gradient(145deg, #23282cda, #1e2125c6);
+}
+body{
+    background-color: #111;;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+header nav .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+header nav .container .row .logo h3{
+    font-size: 32.679px;
+    font-weight: 700;
+    color: white;
+}
+header nav .container .row .logo h3 span{
+    color: darkred;
+}
+header nav .container .row ul{
+    display: flex;
+}
+header nav .container .row ul li a{
+    color: white;
+    position: relative;
+    margin: 0 20px;
+}
+header nav .container .row ul li a:hover{
+    color: darkred;
+}
+header nav .container .row ul li a:after{
+    content: "";
+    height: 3px;
+    width: 20%;
+    background-color: darkred;
+    position: absolute;
+    bottom: -25%;
+    left: 2%;
+    opacity: 0;
+    transition: all 0.7s;
+}
+header nav .container .row ul li a:hover::after{
+    opacity: 1;
+}
+header nav .container .row .btns .sign a{
+    margin: 0 10px;
+    color: white;
+}
+header nav .container .row .btns a .menu{
+    display: none;
+    color: white;
+}
+header nav .container .row .btns .sign a:nth-child(2){
+    background-color: darkred;
+    padding: 10px 20px;
+    border-radius: 100px;
+}
+main .sec1 .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .sec1 .container .hero-text{
+    width: 30%;
+    animation: fade 1s ease 0.2s 1 normal backwards;
+}
+main .sec1 .container .hero-img{
+    width: 27%;
+    animation: fade 1s ease 0.2s 1 normal backwards;
+}
+main .sec1 .container .hero-img img{
+    width: 100%;
+}
+main .sec1 .container .hero-text h1{
+    color: white;
+    margin-bottom: 40px;
+    font-size: 58px;
+}
+main .sec1 .container .hero-text span{
+    color: darkred;
+}
+main .sec1 .container .hero-text p{
+    color: white;
+    font-size: 21px;
+    margin-bottom: 40px;
+}
+main .sec1 .container .hero-text button{
+    background-color: darkred;
+    border: none;
+    padding: 20px 30px;
+    color: white;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+@keyframes fade {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%,0,0);
+    }
+    100% {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}
